@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <h3>Sekme Gruplayıcı</h3>
+  
+  <!-- Grup Adı Girişi -->
+  <div class="grup-input-alani">
+    <input type="text" id="grupAdi" placeholder="Grup adı girin (Örn: Ödev, Ders)">
+    <button id="btnKaydet">Seçilenleri Kaydet</button>
+  </div>
+
+  <hr>
+
+  <!-- Açık Sekmeler Listesi -->
+  <h4>Açık Sekmeler</h4>
+  <div class="liste-kontrol">
+    <button id="btnHepsiniSec">Hepsini Seç</button>
+    <button id="btnSecimiKaldir">Seçimi Kaldır</button>
+  </div>
+  <div id="sekmeListesi" class="liste"></div>
+
+  <hr>
+
+  <!-- Kaydedilen Gruplar Listesi -->
+  <h4>Kaydedilen Gruplar</h4>
+  <div id="grupListesi" class="liste"></div>
+
+  <hr>
+
+  <!-- Dışa Aktarma/İndirme Butonu -->
+  <button id="btnIndir" class="ikincil-buton">Verileri Yedek Olarak İndir (JSON)</button>
+
+  <script src="popup.js"></script>
+</body>
+</html>

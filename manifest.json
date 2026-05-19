@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Sekme Gruplayıcı ve Kaydedici",
+  "version": "1.0",
+  "description": "Açık sekmeleri konularına göre gruplandırır, kaydeder ve cihazlar arası senkronize eder.",
+  "permissions": [
+    "tabs",
+    "storage"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
